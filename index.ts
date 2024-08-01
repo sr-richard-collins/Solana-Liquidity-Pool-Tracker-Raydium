@@ -91,7 +91,7 @@ async function fetchRaydiumAccounts(txId: any, connection: any) {
         marketEventQueue: marketInfo.eventQueue,
     } as LiquidityPoolKeysV4);
 
-    credits += 100;
+    credits += 1000;
 
     // finding input accounts of the transaction
     // stored within the accounts object, within instructions object, within message object, within transaction object
